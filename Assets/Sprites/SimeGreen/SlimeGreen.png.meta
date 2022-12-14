@@ -48,7 +48,7 @@ TextureImporter:
       213: 9022469694412698478
     second: SlimeGreen_14
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -69,6 +69,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,6 +108,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -134,6 +136,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -472,6 +486,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SlimeGreen_0: -333546869442720500
+      SlimeGreen_3: 5350891728164368291
+      SlimeGreen_12: 8572201814398406570
+      SlimeGreen_8: -7570513953214519321
+      SlimeGreen_5: -185550312786678539
+      SlimeGreen_13: 9002164846710197739
+      SlimeGreen_7: -1622431099599813564
+      SlimeGreen_6: -8346885777181025459
+      SlimeGreen_2: -3833225532081431400
+      SlimeGreen_10: 4826530825842230522
+      SlimeGreen_11: 6699319835492837000
+      SlimeGreen_14: 9022469694412698478
+      SlimeGreen_4: 243277578138389322
+      SlimeGreen_9: -4337565673081518066
+      SlimeGreen_1: -1292242400718345371
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

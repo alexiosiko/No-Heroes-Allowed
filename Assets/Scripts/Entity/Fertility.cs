@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 public class Fertility : MonoBehaviour
 {
@@ -9,12 +9,12 @@ public class Fertility : MonoBehaviour
     private GameManager game;
     private GridDetails gridDetails;
     private Animator animator;
-    private new Light2D light;
+    private new UnityEngine.Rendering.Universal.Light2D light;
     public int nutrientLevel = 0;
     public int magicLevel = 0;
     void Awake()
     {
-        light = GetComponentInChildren<Light2D>();
+        light = GetComponentInChildren<UnityEngine.Rendering.Universal.Light2D>();
         animator = GetComponent<Animator>();
         gridDetails = FindObjectOfType<GridDetails>();
         game = FindObjectOfType<GameManager>();

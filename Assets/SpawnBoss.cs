@@ -25,7 +25,7 @@ public class SpawnBoss : MonoBehaviour
         }
 
     }
-    void OnMouseDown()
+    public void Click()
     {
         active = true;
     }
